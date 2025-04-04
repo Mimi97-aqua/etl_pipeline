@@ -1,5 +1,5 @@
 # etl_pipeline
-ETL Pipeline orchestrated with Apache Airflow
+ETL Pipeline for employees data orchestrated with Apache Airflow
 
 ## Overview
 An ETL pipeline that **E**xtracts, **T**ransforms, and **L**oads employee data from the source location (local PC) to
@@ -12,7 +12,7 @@ This project made use of:
 - Python (Pandas)
 - Apache Airflow
 - SQLAlchemy
-- Aiven (for the POstgreSQL databases acting as the data warehouse)
+- Aiven (for the PostgreSQL databases acting as the data warehouse)
 
 To install requirements after project setup, run `pip install -r requirements.txt`
 
