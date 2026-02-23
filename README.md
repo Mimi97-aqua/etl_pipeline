@@ -9,18 +9,17 @@ automating it using a data orchestration tool like Airflow; which is what is use
 
 ## Requirements
 This project made use of:
-- Python (Pandas)
+- Python
+- Pandas
+- OpenPyXL
 - Apache Airflow
 - SQLAlchemy
+- Python Dotenv
 - Aiven (for the PostgreSQL databases acting as the data warehouse)
 
 To install requirements after project setup, run `pip install -r requirements.txt`
 
 ## Setup & Installation
-- To clone this project, run:
-  - using SSH: `git clone git@github.com:Mimi97-aqua/etl_pipeline.git`
-  - using HTTPS: `git clone https://<PAT>@github.com/Mimi97-aqua/etl_pipeline.git`
+- To clone this project, run: `git clone git@github.com:Mimi97-aqua/etl_pipeline.git`
 - Install project requirements
-- Navigate to Aiven or any database / data warehousing solution of your choice
 - Create a `.env` file and in it, insert your database connection string as such `DB_URL="<db_conn_string>`
-- 
